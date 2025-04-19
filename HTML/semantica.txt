@@ -1,0 +1,55 @@
+A semântica em HTML refere-se ao uso de tags (elementos) HTML de acordo com o significado ou propósito do conteúdo que elas envolvem, e não apenas pela aparência visual que elas podem ter por padrão no navegador.
+
+Pense assim: em vez de apenas dizer ao navegador como algo deve parecer (negrito, itálico, tamanho grande), você diz ao navegador o que aquele conteúdo é (um título principal, um parágrafo, uma lista de navegação, um rodapé, etc.).
+
+Por que isso é importante?
+
+Acessibilidade (A11y): Leitores de tela e outras tecnologias assistivas usadas por pessoas com deficiência dependem da estrutura semântica para entender e navegar pela página. Uma tag <h1> informa que aquele é o título mais importante da página, enquanto uma <nav> indica um bloco de links de navegação. Usar <div>s genéricos estilizados para parecerem títulos ou menus não transmite essa informação crucial.
+SEO (Otimização para Motores de Busca): Motores de busca como o Google usam a semântica para entender a estrutura e a relevância do conteúdo da sua página. Usar tags como <article>, <section>, <h1>, <header>, <footer> ajuda os motores de busca a indexar seu site de forma mais eficaz.
+Manutenibilidade e Clareza do Código: Para outros desenvolvedores (e para você mesmo no futuro), um código semanticamente correto é muito mais fácil de ler e entender. Ver <header>, <main>, <aside>, <footer> imediatamente informa a estrutura da página, ao contrário de um monte de <div>s aninhados sem significado claro.
+Interoperabilidade e Futuro: Navegadores e outras ferramentas (como modos de leitura) podem usar a estrutura semântica para apresentar o conteúdo de maneiras diferentes ou otimizadas. Usar significado em vez de apenas aparência torna seu conteúdo mais adaptável.
+Exemplos:
+
+Não semântico (ruim):
+
+html
+<div class="cabecalho">Meu Site</div>
+<div class="menu">
+    <span>Home</span> | <span>Sobre</span> | <span>Contato</span>
+</div>
+<div class="conteudo-principal">
+    <div class="titulo-artigo">Meu Primeiro Artigo</div>
+    <div class="paragrafo">Este é o texto do meu artigo...</div>
+</div>
+<div class="rodape">Copyright 2023</div>
+Aqui, usamos <div> e <span> para tudo. Só sabemos o que cada parte é por causa das classes CSS, mas a estrutura HTML em si não tem significado.
+
+Semântico (bom):
+
+html
+<header>
+    <h1>Meu Site</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article>
+        <h2>Meu Primeiro Artigo</h2>
+        <p>Este é o texto do meu artigo...</p>
+    </article>
+</main>
+<footer>
+    <p>Copyright 2023</p>
+</footer>
+Aqui, usamos tags como <header>, <h1>, <nav>, <ul>, <li>, <main>, <article>, <h2>, <p>, <footer>. Cada tag descreve claramente o propósito do seu conteúdo.
+
+Tags Não Semânticas:
+
+As tags <div> e <span> são consideradas não semânticas. Elas não carregam nenhum significado intrínseco sobre o conteúdo. São usadas principalmente como "contêineres" genéricos para agrupar elementos para fins de estilização (com CSS) ou manipulação (com JavaScript) quando nenhuma outra tag semântica mais específica se aplica.
+
+Em resumo: Usar HTML semântico significa escolher a tag HTML que melhor descreve a natureza do conteúdo que você está marcando. Isso torna seu site mais acessível, melhor para SEO, mais fácil de manter e mais robusto para o futuro.
