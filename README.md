@@ -54,9 +54,9 @@ Este repositório está organizado (ou será organizado) por módulos ou projeto
 
 1.  **Clonar:**
     ```bash
-    git clone https://github.com/SEU_USUARIO/EBCA_Profiss-o_Desenvolvedor_Full_Stack_Python_v2.git
+    git clone https://github.com/alanpaesdev/EBCA_Profiss-o_Desenvolvedor_Full_Stack_Python_v2.git
     ```
-    *(Substitua `SEU_USUARIO` pelo seu nome de usuário no GitHub)*
+    *(Substitua `alanpaesdev` pelo seu nome de usuário no GitHub)*
 
 2.  **Navegar:** Entre na pasta do projeto ou módulo específico que deseja visualizar ou executar.
     ```bash
@@ -71,8 +71,8 @@ Este repositório serve como um registro do meu aprendizado e progresso no curso
 
 ## Contato
 
-*   **Nome:** [Seu Nome Completo]
-*   **LinkedIn:** [Link para seu perfil no LinkedIn (Opcional)]
-*   **GitHub:** [Link para seu perfil no GitHub (Ex: https://github.com/SEU_USUARIO)]
+*   **Nome:** Alan Paes
+*   **LinkedIn:** www.linkedin.com/in/sialanpaes
+*   **GitHub:** https://github.com/alanpaesdev/
 
 *(<!-- Sinta-se à vontade para adicionar ou remover seções conforme necessário -->)*
