@@ -1,0 +1,69 @@
+
+/* CABEÇALHO */
+
+/* ESTILO 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO 2 */
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header nv li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+ }      
+
+/* ESTILO 3 */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ESTILO 4 */
+header .container,
+section .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+/* SESSÃO SOBRE */
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section  {
+    padding: 24px 0;
+}
+
+section  {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section img {
+    margin-right: 32px;
+}
