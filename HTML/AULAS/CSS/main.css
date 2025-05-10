@@ -1,0 +1,72 @@
+
+/* selecionar várias SESSOES (RESET) */
+
+* {
+    margin: 7px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align:center;
+    color: blue;
+    color                              
+}
+
+header nav ul {
+    color: black;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+header nav ul li a {
+    display: block;
+    background-color: #f0f0f0;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif
+};
+
+.esportes  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.economia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tecnologia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.entreterimento {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+
